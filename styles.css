@@ -1,13 +1,21 @@
 /*  your css code here. If applicable */
 .hero{
-	display: inline;
-	justify-content: centre;
-	align-items: centre;
+	display:flex;
+	 justify-content: centre;
+	align-items: centre; */
+	width:100%;
 }
-.img{
-	width: 70%;
-	height: 100%;
+.image{
+	width: 60%;
 	object-fit: cover;
+}
+.image img{
+	width:100%;
+	height:100%;
+}
+.content{
+	/* display:inline; */
+	width:40%;
 }
 .btn{
 	background-color: red;
